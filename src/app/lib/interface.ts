@@ -3,6 +3,10 @@ interface simpleBlogCard{
     smallDescription:string,
     currentSlug:string,
     TitleImage:any
+    tags:any
+    _id:any
+    slug:any
+    name:string
 };
 
 interface fullBlog{
