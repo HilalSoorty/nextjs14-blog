@@ -13,8 +13,8 @@ async function getAllTags(){
 const tags = client.fetch(query)
 return tags
 }
+export const revalidate = 60;
 
-export const revalidata = 60;
 
 async function page() {
 const tags:Tag[] = await getAllTags()
